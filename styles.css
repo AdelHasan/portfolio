@@ -1,0 +1,62 @@
+* {
+  font-family: 'Fira Code', monospace;
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+}
+
+body header, section {
+  border: 1px solid black;
+}
+
+section div {
+  border: .5px solid yellow
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: royalblue;
+  color: white;
+}
+
+.header #logo-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+}
+
+.header p {
+  font-size: 1.5em;
+  margin: 5px;
+}
+
+.header nav {
+  margin-right: 20px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.about-section {
+  display: flex;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.categories-container {
+  display: flex;
+  justify-content: space-around;
+}
