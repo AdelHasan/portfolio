@@ -3,24 +3,25 @@
 }
 
 #logo {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 
-body header, section {
+/* body header, section {
   border: 1px solid black;
 }
 
 section div {
   border: .5px solid yellow
-}
+} */
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: royalblue;
+  background-color: midnightblue;
   color: white;
+  
 }
 
 .header #logo-title {
@@ -30,9 +31,13 @@ section div {
   margin: 10px;
 }
 
+.header img {
+  margin-left: 15px;
+}
+
 .header p {
   font-size: 1.5em;
-  margin: 5px;
+  margin-left: 25px;
 }
 
 .header nav {
@@ -42,6 +47,7 @@ section div {
 
 nav a {
   color: white;
+  font-size: 1.2em;
   text-decoration: none;
   margin-left: 10px;
 }
