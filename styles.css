@@ -7,13 +7,13 @@
   width: 40px;
 }
 
-/* body header, section {
+body header, section {
   border: 1px solid black;
 }
 
 section div {
-  border: .5px solid yellow
-} */
+  border: .75px solid black
+}
 
 .header {
   display: flex;
@@ -86,18 +86,19 @@ nav a {
 
 .contact-page {
   display: flex;
-  
+  justify-content: space-between;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
 }
 
 .social-links {
+  flex: 1;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -106,5 +107,5 @@ nav a {
 }
 
 .social-links h1 {
-  align-self: start;
+  align-self: center;
 }

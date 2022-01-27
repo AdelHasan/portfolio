@@ -98,3 +98,4 @@ function reverse(string) {
 ## Citations
 
 Listed below are all outside resources which I used significantly to add functionality to my projectm , with detail regarding my use of each resource. 
+
