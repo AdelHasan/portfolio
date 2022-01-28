@@ -1,5 +1,5 @@
 $(() => {
-  const $page = $(".container");
+  const $page = $("body");
   const $darkSwitch = $("#nav-four");
   const $nav = $(".nav");
 
