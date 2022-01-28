@@ -1,111 +1,94 @@
 * {
-  font-family: 'Fira Code', monospace;
-}
-
-#logo {
-  height: 40px;
-  width: 40px;
-}
-
-body header, section {
-  border: 1px solid black;
-}
-
-section div {
-  border: .75px solid black
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: midnightblue;
-  color: white;
   
 }
 
-.header #logo-title {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 10px;
+body {
+  font-family: 'Mukta', sans-serif;
+  background-color: #f0ffff;
 }
 
-.header img {
-  margin-left: 15px;
+.card {
+  font-family: 'Fira Code', monospace;
+  margin-bottom: 10px;
+  padding-top: 10px;
 }
 
-.header p {
-  font-size: 1.5em;
-  margin-left: 25px;
+.nav {
+  padding-top: 2.5%;
+  padding-bottom: 1%;
+  border-bottom: .5px solid skyblue;
 }
 
-.header nav {
-  margin-right: 20px;
-  color: white;
+section {
+  padding-bottom: 2.5%;
+  padding-top: 2.5%;
+  border-bottom: .5px solid skyblue;
 }
 
-nav a {
-  color: white;
-  font-size: 1.2em;
-  text-decoration: none;
-  margin-left: 10px;
+#nav-one, #nav-two, #nav-three{
+  border-right: .5px solid grey;
 }
 
-.about-section {
-  display: flex;
+a:hover {
+  /* background-color: #ffd700; */
+  font-size: 1.05em;
 }
 
-.brand-statement {
-  display: flex;
-  flex-direction: column;
+a:active {
+  /* background-color: #b8860b; */
+  /* box-shadow: 0 5px gray; */
+  transform: translateY(2px);
 }
 
-.professional-summary {
-  display: flex;
-  flex-direction: column;
-  align-items: space-around;
+#brand {
+  /* border-right: .25px solid skyblue; */
+  padding-right: 5%;
+}
+
+
+#summary {
+  border-left: .25px solid skyblue;
+  padding-left: 5%;
+}
+
+#brand img {
+  margin-bottom: 10px;
+}
+
+#brand p {
+  text-align: justify;
 }
 
 .projects-section {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.categories-container {
-  display: flex;
   justify-content: space-around;
 }
 
-.categorybox {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black;
+#email-form {
+  border-right: .25px solid skyblue;
+  padding-right: 5%;
 }
 
-.contact-page {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contact-form {
+#social-links {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  text-align: center;
 }
 
-.social-links {
-  flex: 1;
+#social-links h3 {
+  justify-self: self-start;
+}
+
+#social-links a {
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+  list-style: none;
+  font-size: 1.5em
 }
 
-.social-links h1 {
-  align-self: center;
+.dark {
+  background-color: #073C3C;
+  color: whitesmoke;
 }
+
+

@@ -7,8 +7,8 @@
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 ## Project Description
@@ -19,14 +19,12 @@
 - As I develop greater profieciency and forge my professional identity I intend to continuously iterate this project
 
 ## Wireframes
-   
-- [Mobile]()
-- [Tablet]()
-- [Desktop](https://imgur.com/a/IuWd48i)
+
+- [Link](https://imgur.com/a/IuWd48i)
 
 ## Time/Priority Matrix 
 
-[Link](https://imgur.com/a/mVlvl1l)
+- [Link](https://imgur.com/a/mVlvl1l)
 
 #### MVP
 
@@ -76,26 +74,43 @@
 | Total | H | 11hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+- Bootstrap CSS : Layout/Responsive Design (Mobile First)
+- JQuery : Used to provide functionality for toggle dark mode button
+- MDN web docs : General Reference
+- W3Schools : General Reference
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+I used the below function to add a toggle dark mode button to my site. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+$darkSwitch.on("click", function () {
+    $page.toggleClass("dark");
+    $nav.toggleClass("navbar-dark");
+    $nav.toggleClass("bg-dark");
+    $(".card").toggleClass("text-white");
+    $(".card").toggleClass("bg-dark");
+    $(".btn").toggleClass("btn-dark");
+    $(".btn").toggleClass("btn-primary");
+    // $(".card").toggleClass("mb-3");
+    // text-white bg-dark mb-3
+  })
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+### Designing mobile first
+- Using Bootstrap made this straightforward, helped shift my perspective to mobile-first
 
-## Citations
+### Adding Dark Mode functionality
+- Used color picker to identify visually pleasing dark mode colors
+- Used jQuery to add toggle class functionality to the dark mode button
+- Created CSS classes to apply the correct colors to the correct elements
 
-Listed below are all outside resources which I used significantly to add functionality to my projectm , with detail regarding my use of each resource. 
+
+
+
+
+
+
 

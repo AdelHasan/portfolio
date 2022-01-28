@@ -12,81 +12,93 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
 
-    <title>Crouching Tiger Hidden Dragon</title>
+    <title>Portfolio</title>
   </head>
   <body>
     <div class="container">
-      <ul class="nav flex-md-column>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <ul class="nav sticky-top" style="background-color: #f0ffff;"">
+        <li id="nav-one" class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#about-section">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+        <li id="nav-two" class="nav-item">
+          <a class="nav-link" href="#projects-section">Projects</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+        <li id="nav-three" class="nav-item">
+          <a class="nav-link" href="#contact-section">Contact</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+        <li id="nav-four" class="nav-item">
+          <a class="nav-link" href="#">Toggle Dark Mode</a>
         </li>
       </ul>
 
-      <div class="row about-section">
+      <section class="row about-section" id="about-section">
         <div class="col">
-          <h2 class="text-center">About</h2>
+          <h2 id="about-start" class="text-center">Adel Hasan</h2>
           <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6">
-              <h3 class="text-center">Adel Hasan</h3>
-              <h4 class="text-center">Software Solutions</h4>
-              <img src="/assets/images/profilephoto.png" alt="profile photo">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam amet accusantium aliquid veritatis nisi blanditiis vel. Hic dolor labore consequatur fugiat temporibus recusandae amet placeat architecto molestias. Consectetur, eius ea!
-              Impedit rem aliquam necessitatibus veritatis natus vero nihil, deleniti consequuntur excepturi ab sapiente sunt quae beatae deserunt accusantium consectetur, aperiam distinctio voluptates ullam sit. Culpa autem similique quia quas. Velit.</p>
+              <div id="brand" class="text-center">
+                <!-- <h3 class="text-center">About Me:</h3> -->
+              <img id="profile" src="/assets/images/profilephoto.png" alt="profile photo">
+              <p>I strive to deliver creative and impactful user experiences through elegant UX designs and efficient, carefully designed back-end software. My myriad and diverse passions make my perspective another unique one to identify and leverage opportunities for creative application of development technologies.</p>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            </div>
+            <div id="summary" class="col-sm-12 col-md-6 col-lg-6">
               <h3 class="text-center">Professional Status</h3>
               <h4 class="text-center">Current Role</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repudiandae deleniti blanditiis dolorem eius, repellendus et, tempora aut eum doloremque quia dolor, voluptas cumque iure reprehenderit. Perspiciatis dolorum laborum eius?</p>
               <h4 class="text-center">Background</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem recusandae dignissimos consectetur quis, eos excepturi nisi voluptas laudantium deleniti autem fugit dolores consequuntur perspiciatis nihil error ex alias labore provident.</p>
-              <h4 class="text-center">Aspirations</h4>
+              <h4 class="text-center">Goals</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum pariatur maxime in itaque deleniti animi perspiciatis. Provident dolores quo reiciendis non, perspiciatis sint debitis aliquam laudantium quasi recusandae suscipit quibusdam.</p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="row projects-section">
+      <section class="row projects-section text-center" id="projects-section">
+        <h2 id="projects-start" class="text-center">Projects</h2>
         <div class="card pr-1" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="/assets//images/ux.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Front-End</h5>
-            <p class="card-text">My major work in front-end/UX design</p>
-            <a href="#" class="btn btn-primary">More</a>
+            <p class="card-text">Minimal, use-case focused designs</p>
+            <a href="https://github.com/AdelHasan" class="btn btn-dark" target="_blank">More</a>
           </div>
         </div>
         <div class="card pr-1" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="/assets/images/server.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Back-End</h5>
-            <p class="card-text">My major work in back-end development</p>
-            <a href="#" class="btn btn-primary">More</a>
+            <p class="card-text">Server-side and Database projects</p>
+            <a href="https://github.com/AdelHasan" class="btn btn-dark" target="_blank">More</a>
           </div>
         </div>
         <div class="card pr-1" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="/assets/images/full.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Full-Stack</h5>
-            <p class="card-text">My projects incorporating front and back-end design and development</p>
-            <a href="#" class="btn btn-primary">More</a>
+            <p class="card-text">Where the two worlds meet</p>
+            <a href="https://github.com/AdelHasan" class="btn btn-dark" target="_blank">More</a>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="row contact-section">
-        <div class="col">
-          <h2 class="text-center">Contact</h2>
+      <section class="row contact-section" id="contact-section">
+        <h2 id="contact-start" class="text-center">Contact</h2>
+        <div id="email-form" class="col-sm-12 col-lg-6">
+         <h3 class="text-center">Email Inquiries</h3>
           <div class="row text-center">
             <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSfs9BDZKhP7pfegDhThqAZlWTmofKjk7jzid1jvZY4gpFpUtA/viewform?embedded=true"
@@ -99,7 +111,21 @@
           >
           </div>
         </div>
-      </div>
+
+        <div id="social-links" class="col-sm-12 col-md-6">
+          
+          <h3 class="text-center">Find Me On:</h3>
+        
+            <a href="">Github</a>
+            <a href="">LinkedIn</a>
+            <a href="">Twitter</a>
+        
+        </div>
+      </section>
+
+      <footer>
+        <p class="text-center">&copy; Adel Hasan Development</p>
+      </footer>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -110,5 +136,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
