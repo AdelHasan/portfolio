@@ -11,6 +11,7 @@ $(() => {
     $(".card").toggleClass("bg-dark");
     $(".btn").toggleClass("btn-dark");
     $(".btn").toggleClass("btn-primary");
+    // $("#darkbtn").text("Light")
     // $(".card").toggleClass("mb-3");
     // text-white bg-dark mb-3
   })
